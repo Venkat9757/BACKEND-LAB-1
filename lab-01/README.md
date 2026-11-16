@@ -1,10 +1,10 @@
-﻿# Backend Development Fundamentals - Lab 1
+# Backend Development Fundamentals - Lab 1
 
 ## Student Details
 
 - **Name:** Venkatesh Kattempudi
 - **Section:** Gen Ai-S26
-- **Registration Number:** YOUR_REGISTRATION_NUMBER
+- **Registration Number:** 252U1R9168
 
 ## 1. Objective
 
@@ -47,7 +47,7 @@ Open: http://localhost:3000
 ### Express Server
 
 ```bash
-node server.js
+npm start
 ```
 
 Open: http://localhost:3000
@@ -81,7 +81,7 @@ Open: http://localhost:3000
 
 ## 7. Deployment
 
-**Live Application:** https://bdf-lab-01.onrender.com/
+**Live Application:** To be added after verifying the personal Render deployment.
 
 ## 8. Result
 
