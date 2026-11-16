@@ -1,4 +1,4 @@
-﻿# Lab 3: REST API, Query Parameters, Validation and Debugging
+# Lab 3: REST API, Query Parameters, Validation and Debugging
 
 ## Student Details
 - Name: Venkatesh Kattempudi
@@ -21,9 +21,9 @@ To develop a REST API for managing books using Node.js, Express.js and SQLite, i
 
 ## Installation and Execution
 1. Open the lab-03 folder in the terminal.
-2. Install dependencies using: npm install
-3. Start the server using: node server.js
-4. Server URL: http://localhost:3000
+2. Install dependencies using: `npm install`
+3. Start the server using: `npm start`
+4. Server URL: `http://localhost:3000`
 
 The SQLite database is created automatically when the server starts.
 
@@ -82,6 +82,9 @@ The SQLite database is created automatically when the server starts.
 
 ### 12. Query Validation
 ![Query Validation](screenshots/12-query-validation.png)
+
+## 7. Deployment
+**Live Application:** Add the personal Render URL after deployment and route testing.
 
 ## Result
 The REST API was implemented and tested using Postman. Search, sorting, pagination, price filtering, CRUD operations and validation responses were tested.
