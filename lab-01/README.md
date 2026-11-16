@@ -81,7 +81,7 @@ Open: http://localhost:3000
 
 ## 7. Deployment
 
-**Live Application:** To be added after verifying the personal Render deployment.
+**Live Application:** https://backend-lab-1-yskc.onrender.com/
 
 ## 8. Result
 
