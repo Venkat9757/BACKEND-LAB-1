@@ -2,6 +2,7 @@ const express = require('express')
 const Database = require('better-sqlite3')
 
 const app = express()
+const PORT = process.env.PORT || 3000
 const db = new Database("books.db")
 
 app.use(express.json())
@@ -62,7 +63,6 @@ app.get("/books", (request, response) => {
 })
 
 // Task 1
-
 app.get("/books/:id", (request, response) => {
     const book = db.prepare(
         "SELECT * FROM books WHERE book_id = ?"
@@ -77,8 +77,7 @@ app.get("/books/:id", (request, response) => {
     response.json(book)
 })
 
-// Task 4, 5 and  6
-
+// Task 4, 5 and 6
 app.post("/books", (request, response) => {
 
     const { title, author, price } = request.body
@@ -112,7 +111,6 @@ app.post("/books", (request, response) => {
 })
 
 // Task 5 and 6
-
 app.put("/books/:id", (request, response) => {
 
     const {title, author, price} = request.body
@@ -155,6 +153,6 @@ app.delete("/books/:id", (request, response) => {
     })
 })
 
-app.listen(3000, () => {
-    console.log("Server is Running on port 3000")
+app.listen(PORT, () => {
+    console.log(`Server is running on port ${PORT}`)
 })
