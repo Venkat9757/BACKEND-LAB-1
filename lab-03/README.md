@@ -84,7 +84,7 @@ The SQLite database is created automatically when the server starts.
 ![Query Validation](screenshots/12-query-validation.png)
 
 ## 7. Deployment
-**Live Application:** Add the personal Render URL after deployment and route testing.
+**Live Application:** https://backend-lab-1-1-bd89.onrender.com/
 
 ## Result
 The REST API was implemented and tested using Postman. Search, sorting, pagination, price filtering, CRUD operations and validation responses were tested.
